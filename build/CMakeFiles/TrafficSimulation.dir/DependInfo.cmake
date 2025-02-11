@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/src/Car.cpp" "CMakeFiles/TrafficSimulation.dir/src/Car.cpp.o" "gcc" "CMakeFiles/TrafficSimulation.dir/src/Car.cpp.o.d"
-  "/home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/src/main.cpp" "CMakeFiles/TrafficSimulation.dir/src/main.cpp.o" "gcc" "CMakeFiles/TrafficSimulation.dir/src/main.cpp.o.d"
+  "/home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/src/TrafficSimulation.cpp" "CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o" "gcc" "CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o.d"
   )
 
 # Targets to which this target links.

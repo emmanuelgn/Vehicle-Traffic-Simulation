@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TrafficSimulation.dir/src/Car.cpp.o"
   "CMakeFiles/TrafficSimulation.dir/src/Car.cpp.o.d"
-  "CMakeFiles/TrafficSimulation.dir/src/main.cpp.o"
-  "CMakeFiles/TrafficSimulation.dir/src/main.cpp.o.d"
+  "CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o"
+  "CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o.d"
   "TrafficSimulation"
   "TrafficSimulation.pdb"
 )

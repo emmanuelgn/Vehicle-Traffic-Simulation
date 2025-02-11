@@ -69,19 +69,19 @@ include CMakeFiles/TrafficSimulation.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TrafficSimulation.dir/flags.make
 
-CMakeFiles/TrafficSimulation.dir/src/main.cpp.o: CMakeFiles/TrafficSimulation.dir/flags.make
-CMakeFiles/TrafficSimulation.dir/src/main.cpp.o: ../src/main.cpp
-CMakeFiles/TrafficSimulation.dir/src/main.cpp.o: CMakeFiles/TrafficSimulation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TrafficSimulation.dir/src/main.cpp.o"
-	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrafficSimulation.dir/src/main.cpp.o -MF CMakeFiles/TrafficSimulation.dir/src/main.cpp.o.d -o CMakeFiles/TrafficSimulation.dir/src/main.cpp.o -c /home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/src/main.cpp
+CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o: CMakeFiles/TrafficSimulation.dir/flags.make
+CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o: ../src/TrafficSimulation.cpp
+CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o: CMakeFiles/TrafficSimulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o"
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o -MF CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o.d -o CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o -c /home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/src/TrafficSimulation.cpp
 
-CMakeFiles/TrafficSimulation.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TrafficSimulation.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/src/main.cpp > CMakeFiles/TrafficSimulation.dir/src/main.cpp.i
+CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/src/TrafficSimulation.cpp > CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.i
 
-CMakeFiles/TrafficSimulation.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TrafficSimulation.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/src/main.cpp -o CMakeFiles/TrafficSimulation.dir/src/main.cpp.s
+CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/src/TrafficSimulation.cpp -o CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.s
 
 CMakeFiles/TrafficSimulation.dir/src/Car.cpp.o: CMakeFiles/TrafficSimulation.dir/flags.make
 CMakeFiles/TrafficSimulation.dir/src/Car.cpp.o: ../src/Car.cpp
@@ -99,15 +99,18 @@ CMakeFiles/TrafficSimulation.dir/src/Car.cpp.s: cmake_force
 
 # Object files for target TrafficSimulation
 TrafficSimulation_OBJECTS = \
-"CMakeFiles/TrafficSimulation.dir/src/main.cpp.o" \
+"CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o" \
 "CMakeFiles/TrafficSimulation.dir/src/Car.cpp.o"
 
 # External object files for target TrafficSimulation
 TrafficSimulation_EXTERNAL_OBJECTS =
 
-TrafficSimulation: CMakeFiles/TrafficSimulation.dir/src/main.cpp.o
+TrafficSimulation: CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o
 TrafficSimulation: CMakeFiles/TrafficSimulation.dir/src/Car.cpp.o
 TrafficSimulation: CMakeFiles/TrafficSimulation.dir/build.make
+TrafficSimulation: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
+TrafficSimulation: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
+TrafficSimulation: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 TrafficSimulation: CMakeFiles/TrafficSimulation.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TrafficSimulation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TrafficSimulation.dir/link.txt --verbose=$(VERBOSE)

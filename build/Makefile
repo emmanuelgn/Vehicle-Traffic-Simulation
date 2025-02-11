@@ -153,29 +153,29 @@ src/Car.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrafficSimulation.dir/build.make CMakeFiles/TrafficSimulation.dir/src/Car.cpp.s
 .PHONY : src/Car.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/TrafficSimulation.o: src/TrafficSimulation.cpp.o
+.PHONY : src/TrafficSimulation.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrafficSimulation.dir/build.make CMakeFiles/TrafficSimulation.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/TrafficSimulation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrafficSimulation.dir/build.make CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o
+.PHONY : src/TrafficSimulation.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/TrafficSimulation.i: src/TrafficSimulation.cpp.i
+.PHONY : src/TrafficSimulation.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrafficSimulation.dir/build.make CMakeFiles/TrafficSimulation.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/TrafficSimulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrafficSimulation.dir/build.make CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.i
+.PHONY : src/TrafficSimulation.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/TrafficSimulation.s: src/TrafficSimulation.cpp.s
+.PHONY : src/TrafficSimulation.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrafficSimulation.dir/build.make CMakeFiles/TrafficSimulation.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/TrafficSimulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrafficSimulation.dir/build.make CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.s
+.PHONY : src/TrafficSimulation.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... src/Car.o"
 	@echo "... src/Car.i"
 	@echo "... src/Car.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/TrafficSimulation.o"
+	@echo "... src/TrafficSimulation.i"
+	@echo "... src/TrafficSimulation.s"
 .PHONY : help
 
 
