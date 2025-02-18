@@ -35,8 +35,8 @@ int main() {
         carShape.setPosition(lanePositions[i] - carShape.getSize().x / 2, 600.0f);
         carShapes.push_back(carShape);
 
-        // Generate random speed between 1.0f and 10.0f
-        float carSpeed = 1.0f + static_cast<float>(rand()) / (RAND_MAX / 9.0f);
+        // Generate random speed between 2.0f and 10.0f
+        float carSpeed = 2.0f + static_cast<float>(rand()) / (RAND_MAX / 9.0f);
         carSpeeds.push_back(carSpeed);
     }
 
@@ -56,7 +56,11 @@ int main() {
             carShapes[i].move(0, -carSpeeds[i] * deltaTime);
 
             if (carShapes[i].getPosition().y + carShapes[i].getSize().y < 0) {
+                // Reposition the car at the bottom of the screen
                 carShapes[i].setPosition(carShapes[i].getPosition().x, 600.0f);
+
+                // Assign a new random speed between 2.0f and 10.0f
+                carSpeeds[i] = 2.0f + static_cast<float>(rand()) / (RAND_MAX / 9.0f);
             }
         }
 
