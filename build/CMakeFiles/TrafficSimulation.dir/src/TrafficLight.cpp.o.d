@@ -1,11 +1,13 @@
-CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o: \
- /home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/src/TrafficSimulation.cpp \
- /usr/include/stdc-predef.h /usr/include/SFML/Graphics.hpp \
- /usr/include/SFML/Window.hpp /usr/include/SFML/System.hpp \
- /usr/include/SFML/Config.hpp /usr/include/SFML/System/Clock.hpp \
- /usr/include/SFML/System/Export.hpp /usr/include/SFML/System/Time.hpp \
- /usr/include/SFML/System/Err.hpp /usr/include/c++/7/ostream \
- /usr/include/c++/7/ios /usr/include/c++/7/iosfwd \
+CMakeFiles/TrafficSimulation.dir/src/TrafficLight.cpp.o: \
+ /home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/src/TrafficLight.cpp \
+ /usr/include/stdc-predef.h \
+ /home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/include/TrafficLight.h \
+ /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
+ /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
+ /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
+ /usr/include/SFML/System/Time.hpp /usr/include/SFML/System/Err.hpp \
+ /usr/include/c++/7/ostream /usr/include/c++/7/ios \
+ /usr/include/c++/7/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -220,6 +222,4 @@ CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o: \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/c++/7/iostream \
- /home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/include/Car.h \
- /home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/include/TrafficLight.h
+ /usr/include/SFML/Graphics/VertexBuffer.hpp

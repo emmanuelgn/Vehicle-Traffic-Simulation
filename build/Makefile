@@ -153,6 +153,30 @@ src/Car.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrafficSimulation.dir/build.make CMakeFiles/TrafficSimulation.dir/src/Car.cpp.s
 .PHONY : src/Car.cpp.s
 
+src/TrafficLight.o: src/TrafficLight.cpp.o
+.PHONY : src/TrafficLight.o
+
+# target to build an object file
+src/TrafficLight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrafficSimulation.dir/build.make CMakeFiles/TrafficSimulation.dir/src/TrafficLight.cpp.o
+.PHONY : src/TrafficLight.cpp.o
+
+src/TrafficLight.i: src/TrafficLight.cpp.i
+.PHONY : src/TrafficLight.i
+
+# target to preprocess a source file
+src/TrafficLight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrafficSimulation.dir/build.make CMakeFiles/TrafficSimulation.dir/src/TrafficLight.cpp.i
+.PHONY : src/TrafficLight.cpp.i
+
+src/TrafficLight.s: src/TrafficLight.cpp.s
+.PHONY : src/TrafficLight.s
+
+# target to generate assembly for a file
+src/TrafficLight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrafficSimulation.dir/build.make CMakeFiles/TrafficSimulation.dir/src/TrafficLight.cpp.s
+.PHONY : src/TrafficLight.cpp.s
+
 src/TrafficSimulation.o: src/TrafficSimulation.cpp.o
 .PHONY : src/TrafficSimulation.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/Car.o"
 	@echo "... src/Car.i"
 	@echo "... src/Car.s"
+	@echo "... src/TrafficLight.o"
+	@echo "... src/TrafficLight.i"
+	@echo "... src/TrafficLight.s"
 	@echo "... src/TrafficSimulation.o"
 	@echo "... src/TrafficSimulation.i"
 	@echo "... src/TrafficSimulation.s"

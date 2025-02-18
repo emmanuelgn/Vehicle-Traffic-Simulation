@@ -13,7 +13,7 @@ include_directories(include)
 find_package(SFML 2.5 COMPONENTS system window graphics REQUIRED)
 
 # Add the executable
-add_executable(TrafficSimulation src/TrafficSimulation.cpp src/Car.cpp)
+add_executable(TrafficSimulation src/TrafficSimulation.cpp src/Car.cpp src/TrafficLight.cpp)
 
 # Link SFML libraries
 target_link_libraries(TrafficSimulation sfml-system sfml-window sfml-graphics)
