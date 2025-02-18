@@ -221,18 +221,4 @@ CMakeFiles/TrafficSimulation.dir/src/TrafficSimulation.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/c++/7/iostream \
- /usr/include/c++/7/random /usr/include/c++/7/cmath /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
- /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/7/bits/random.h \
- /usr/include/x86_64-linux-gnu/c++/7/bits/opt_random.h \
- /usr/include/c++/7/bits/random.tcc /usr/include/c++/7/numeric \
- /usr/include/c++/7/bits/stl_numeric.h \
  /home/hexagon/Documents/Personal/Pessoal/Programação/Vehicle-Traffic-Simulation/include/Car.h
