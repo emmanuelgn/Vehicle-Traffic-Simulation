@@ -14,7 +14,7 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(800, 600), "Traffic Simulation");
 
     // Lane width
-    float laneWidth = 30.0f;
+    float laneWidth = 50.0f;
 
     // Define lane positions
     std::vector<float> lanePositions = {100.0f, 200.0f, 300.0f, 400.0f, 500.0f};
@@ -28,7 +28,7 @@ int main() {
         Car car(i + 1, 50.0f);
         cars.push_back(car);
 
-        sf::RectangleShape carShape(sf::Vector2f(50.0f, 100.0f));
+        sf::RectangleShape carShape(sf::Vector2f(30.0f, 100.0f));
         carShape.setFillColor(sf::Color::Blue);
 
         // Center the car in the lane
